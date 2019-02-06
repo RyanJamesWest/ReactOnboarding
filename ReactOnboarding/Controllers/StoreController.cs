@@ -38,7 +38,7 @@ namespace ReactOnboarding.Controllers
             }
         }
 
-        // CREATE Product
+        // CREATE Store
         public JsonResult CreateStore(Store store)
         {
             try

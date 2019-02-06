@@ -45,6 +45,7 @@ namespace ReactOnboarding.Controllers
             {
                 db.Customers.Add(customer);
                 db.SaveChanges();
+                Console.Write("Success");
             }
             catch (Exception e)
             {
